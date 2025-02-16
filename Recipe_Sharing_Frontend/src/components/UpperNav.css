@@ -1,0 +1,67 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    width: 100%;
+    background-color: black;
+    color: #666;
+    position: relative;
+    
+  }
+  
+  .logoItem {
+    margin-left: 20px;
+  }
+  
+  .logo {
+    width: auto;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .centerTextItem {
+    flex: 1; /* To make the text centered */
+    text-align: center;
+  }
+  
+  .centerText {
+    font-size: 25px;
+    color: #3498db;
+    font-weight: bolder;
+    padding: 5px;
+  }
+  .centerText1 {
+    font-size: 25px;
+    color: red;
+    font-weight: bolder;
+    padding: 5px;
+  }
+  .userItem {
+    margin-right: 20px;
+  }
+  
+  .userNameBox {
+    background-color:  #34495e;
+    padding: 12px 1px;
+    border-radius: 50%;
+  }
+  
+  .userNameBox:hover {
+    background-color: #3498db;
+    .userName {
+      color:  black;
+      font-size: 20px;
+    }
+  }
+  .userName {
+    color: white;
+    font-size: 20px;
+  }
+  

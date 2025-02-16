@@ -1,0 +1,322 @@
+
+.main-recipe-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  .recipe-image {
+    display: block;
+    margin: 0 auto 10px;
+    width: 180PX;
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  .recipe-name {
+    font-size: 30px;
+    font-weight: bolder;
+    color:red;
+    margin-top: 20px;
+  }
+
+  .star-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .star-rating h3 {
+    font-size: 20px;
+    /* color: rgb(175, 226, 23); */
+    color:  #3498db;
+    font-weight: bolder;
+    margin: 0;
+}
+  .star-rating-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .star-rating {
+    display: flex;
+  }
+  
+  .star {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ddd;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .star.filled {
+    color: #ffc107;
+  }
+
+  .starkey {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ddd;
+  }
+  
+  .star.hovered {
+    color: #ffeb3b;
+  }
+  
+  .star.selected {
+    color: #ffc107;
+  }
+
+
+  /* Share and Bookmark Icons */
+.share-bookmark-rate-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .icon-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    font-size: 30px;
+    color: #ddd;
+    cursor: pointer;
+  }
+  
+  .icon:hover {
+    color:  #ffeb3b;
+  }
+  .icon.selected {
+    color: #ffc107;
+  }
+  .icon-label {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    text-align: center;
+  }
+  .description-section {
+    text-align: left; /* Align text to the left */
+    margin-top: 20px;
+    padding: 0 10px; /* Add padding for better spacing */
+  }
+  
+  .description-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; /* Align heading to the right */
+    color:red; /* Golden yellow for heading */
+  }
+  
+  .description-text {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ddd; /* Light gray for better readability */
+    
+  }
+
+  .comment-section {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+    padding: 0 10px; /* Add padding for better spacing */
+  }
+  
+  .comment-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; /* Align heading to the left */
+    color: red; /* Golden yellow for heading */
+  }
+  
+  .comment-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Equal column width */
+    gap: 10px;
+    margin-top: 10px;
+    max-height: 300px; /* Limit height if needed */
+    overflow-y: auto; /* Scroll if content exceeds height */
+  }
+  
+  .comment-item {
+    background-color: #292929;
+    color: #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    word-wrap: break-word; /* Handle long words */
+    word-break: break-word; /* Break long strings */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+
+/* Ingredients Section */
+.ingredients-section {
+    margin-top: 20px;
+    text-align: left; /* Align text to the left */
+    padding: 0 10px; /* Add padding for better spacing */
+  }
+  
+  .ingredients-heading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left; /* Align heading to the left */
+    color: red; /* Golden yellow for heading */
+  }
+  
+  .ingredients-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three items per row */
+    gap: 10px; /* Spacing between items */
+    margin-top: 10px;
+  }
+  
+  .y{
+
+    color: #ffc107;
+  }
+  .ingredient-item {
+    background-color: #292929; /* Dark background for ingredient items */
+    color: #ddd; /* Light gray text for readability */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+/* Add Comment Section */
+.add-comment-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .add-comment-button {
+    background-color: red; /* Bright button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  .confirm-comment-button {
+    background-color: red; /* Bright button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  .cancel-comment-button{
+    background-color:  #3498db;;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .add-comment-button:hover{    
+    background-color:  #3498db;;
+    color: black;
+  }
+  
+  .comment-input {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  .comment-input:focus {
+    border-color: red;
+  }
+  
+  .comments-list-section {
+    margin-top: 20px;
+    text-align: left;
+    width:max-content
+  }
+  
+  .comment-item {
+    font-size: 14px;
+    color: #ddd;
+    margin: 5px 0;
+  }
+  
+  .popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .share-url {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .copy-button, .close-button,.rate-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .copy-button {
+    background-color: red; /* Bright button color */
+    color: #fff;
+  }
+  
+  .close-button {
+    background-color:  #3498db;;
+    color: black;
+  }
+  
+  .rate-button {
+    background-color: red; /* Bright button color */
+    color: #fff;
+  }

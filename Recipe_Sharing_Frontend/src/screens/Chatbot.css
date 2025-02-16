@@ -1,0 +1,128 @@
+.chatbot-container {
+  width: 800px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  overflow: hidden;
+  font-family: "Arial", sans-serif;
+}
+
+.chatbot-header {
+    background-color: rgb(227, 12, 12);
+    /* background-color:black; */
+    padding: 10px 15px;
+    text-align: center;
+  }
+.chatbot-header h1{
+  font-size: 2rem; /* Adjust the font size */
+  color: black;
+  /* color:red; */
+  font-weight: bolder;
+}
+
+.chatbot-messages {
+  padding: 15px;
+  height: 405px;
+  overflow-y: auto;
+}
+.chatbot-mess1 { 
+  padding: 15px;
+  height: 405px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatbot-placeholder{
+    text-align: center;
+}
+.chatbot-placeholder h3
+{
+ font-family: 'Great Vibes', cursive; 
+ font-style: italic;
+ font-size: 50px;
+ font-weight: lighter;
+ color: rgba(255, 0, 0, 0.9);
+}
+
+.chatbot-message {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.chatbot-recipe {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chatbot-recipe p {
+  color: #ddd;
+}
+
+.chatbot-recipe h3 {
+  color: red;
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
+.chatbot-recipe-image {
+  margin-left: 200px;
+  width:50%;
+  height:auto;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.chatbot-recipe p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.chatbot-recipe ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.chatbot-recipe ul li {
+  margin-bottom: 5px;
+}
+
+.chatbot-form {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.chatbot-input {
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.chatbot-submit-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.chatbot-submit-btn:hover {
+    background-color: #3498db;
+    color: black;
+}

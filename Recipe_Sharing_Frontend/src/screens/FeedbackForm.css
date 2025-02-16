@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../Pic.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Feedback Form Container */
+.feedback-form-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: black;
+    color: #ddd;
+}
+
+.feedback-form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: red;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.feedback-form-container input[type="text"],
+.feedback-form-container input[type="email"],
+.feedback-form-container input[type="number"],
+.feedback-form-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.feedback-form-container input[type="text"]:focus,
+.feedback-form-container input[type="email"]:focus,
+.feedback-form-container input[type="number"]:focus,
+.feedback-form-container textarea:focus {
+    outline: none;
+    border-color: red;
+}
+
+/* Radio Button Group */
+.radio-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Submit Button */
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.submit-button:hover {   
+     background-color:  #3498db;;
+    color: black;
+}

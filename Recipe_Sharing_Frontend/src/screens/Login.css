@@ -1,0 +1,87 @@
+/* src/screens/Login.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('../Pic.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.login-container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ddd;
+    background-color: black;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white; /* Set label color to white */
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: red;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Changed from 80% to 100% */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: red;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Button also takes full width */
+}
+
+.login-button:hover {
+    background-color:  #3498db;;
+    color: black;
+}
+
+.signup-link {
+    color: #3498db;
+}

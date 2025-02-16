@@ -1,0 +1,75 @@
+/* Navbar.css */
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#292828;
+    position: relative;
+    width: 100%;
+    min-height: 60px;
+    box-sizing: border-box;
+  }
+  
+  .onavbar {
+    padding-left: 30px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .listItem {
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.listItem:hover {
+    border-color: red;
+}
+  
+  
+  .link {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 12px;
+    width: 500px;
+  }
+  
+  .searchInput {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 16px;
+    height: 30px;
+  }
+  
+  .searchButton {
+    padding: 8px;
+    height: 30px;
+    background-color: red;
+    font-size:medium;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+  }
+  
+  .searchButton:hover {
+    background-color: #3498db;
+    color: black;
+  }
